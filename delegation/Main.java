@@ -5,7 +5,7 @@ public class Main {
 
         // GameCubeコントローラーの接続
         GameCubeController gameCubeController = new GameCubeController();
-        GameCubeControllerAdapter gameCubeControllerAdapter = new GameCubeControllerAdapter(gameCubeController);
+        SwitchController gameCubeControllerAdapter = new GameCubeControllerAdapter(gameCubeController);
         gameCubeControllerAdapter.buttonA();
         gameCubeControllerAdapter.buttonB();
         gameCubeControllerAdapter.buttonX();
@@ -13,7 +13,7 @@ public class Main {
 
         // NINTENDO64のコントローラーの接続
         N64Controller n64Controller = new N64Controller();
-        N64ControllerAdapter n64ControllerAdapter = new N64ControllerAdapter(n64Controller);
+        SwitchController n64ControllerAdapter = new N64ControllerAdapter(n64Controller);
         n64ControllerAdapter.buttonA();
         n64ControllerAdapter.buttonB();
         n64ControllerAdapter.buttonX();

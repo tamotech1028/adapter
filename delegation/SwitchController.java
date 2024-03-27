@@ -1,8 +1,8 @@
 package delegation;
-public interface SwitchController {
-    public void buttonA();
-    public void buttonB();
-    public void buttonX();
-    public void buttonY();
+public abstract class SwitchController {
+    public abstract void buttonA();
+    public abstract void buttonB();
+    public abstract void buttonX();
+    public abstract void buttonY();
 }
 

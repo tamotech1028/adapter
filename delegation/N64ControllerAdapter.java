@@ -1,5 +1,5 @@
 package delegation;
-public class N64ControllerAdapter implements SwitchController {
+public class N64ControllerAdapter extends SwitchController {
 
     private N64Controller controller;
 

@@ -1,5 +1,5 @@
 package delegation;
-public class GameCubeControllerAdapter implements SwitchController {
+public class GameCubeControllerAdapter extends SwitchController {
 
     private GameCubeController controller;
 
